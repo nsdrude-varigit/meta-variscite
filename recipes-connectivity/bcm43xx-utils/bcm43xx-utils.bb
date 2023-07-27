@@ -25,6 +25,7 @@ RDEPENDS:${PN}:imx8mm-var-dart = "i2c-tools"
 RDEPENDS:${PN}:imx8mn-var-som = "i2c-tools"
 RDEPENDS:${PN}:imx8mp-var-dart = "i2c-tools"
 RDEPENDS:${PN}:imx93-var-som = "i2c-tools"
+RDEPENDS:${PN}:am62x-var-som = "i2c-tools"
 RDEPENDS:${PN}:append = " base-files libgpiod-tools var-gpio-utils"
 
 S = "${WORKDIR}"
@@ -56,4 +57,4 @@ do_install() {
 	fi
 }
 
-COMPATIBLE_MACHINE = "(imx6ul-var-dart|imx7-var-som|imx8mm-var-dart|imx8mn-var-som|imx8mq-var-dart|imx8qm-var-som|imx8qxp-var-som|imx8qxpb0-var-som|imx8mp-var-dart|imx93-var-som)"
+COMPATIBLE_MACHINE = "(imx6ul-var-dart|imx7-var-som|imx8mm-var-dart|imx8mn-var-som|imx8mq-var-dart|imx8qm-var-som|imx8qxp-var-som|imx8qxpb0-var-som|imx8mp-var-dart|imx93-var-som|am62x-var-som)"
